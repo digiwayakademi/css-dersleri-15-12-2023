@@ -1,0 +1,21 @@
+
+#container{
+ background-color: blueviolet;    
+}
+
+.box{
+    width: 150px;
+    height: 150px;
+    background-color: red;
+    float: right;
+}
+
+#box1{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: block;
+    clear: both;
+}

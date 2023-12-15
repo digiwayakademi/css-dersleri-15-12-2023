@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+
+.col-2{
+    display: inline-block;
+    width: 50%;  
+    height: 300px;     
+}
+
+
+
+.col-left{
+    vertical-align: top;
+    background: url("features.jpeg");
+    background-position: top center;
+    background-size: cover;
+}
+
+.col-right{
+    padding: 30px; 
+    text-align: center;  
+}
+
+.col-right h3{
+    font-size: 24px;
+    padding-bottom: 20px;
+    color: coral;
+    font-weight: 800;
+}
+
+.col-right p{
+    font-weight: bold;
+  
+}
+
+.col-right a{
+    display: inline-block;
+    margin-top: 15px;
+    text-decoration: none;
+    background-color: coral;
+    color: #fff;
+    padding: 8px 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+.col-right a:hover{
+    background-color: #fff;
+    color: coral;
+    border: 1px solid coral;
+}
+
+.col-right a:active{
+    background-color: #fff;
+    color: blue;
+    border: 1px solid blue;   
+}
+
+
+
